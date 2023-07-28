@@ -1,21 +1,19 @@
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
-import Login from "./components/login/Login";
 import Home from "./components/home/Home";
-import Register from "./components/register/Register";
 import Navbar from "./components/navbar/Navbar";
-import Emicheck from "./components/emi-check/Emicheck";
-import PropertyDetails from "./components/propertydetails/PropertyDetails";
-import Howtoapply from "./components/howtoapply/Howtoapply";
-import Contactus from "./components/contactus/Contactus";
-import About from "./components/about/About";
-import Footer from "./components/footer/Footer";
+import PropertyDetails from "./components/PropertyDetails/PropertyDetails";
+import Howtoapply from "./components/Howtoapply/Howtoapply";
+import Contactus from "./components/ContactUs/Contactus";
+import About from "./components/About/About";
+import Footer from "./components/Footer/Footer";
 import { ToastContainer } from "react-toastify";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "react-toastify/dist/ReactToastify.css";
-import Confirmpage from "./components/confirmpage/Confirmpage";
+import Confirmpage from "./components/ConfirmPage/Confirmpage";
 import Services from "./components/services/Services";
 import Faqs from "./components/faqs/Faqs";
+import Emicheck from "./components/emi-check/Emicheck";
 
 function App() {
   return (
@@ -27,29 +25,11 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/howtoapply" element={<Howtoapply />} />
           <Route path="/services" element={<Services />} />
-          <Route path="register" element={<Register />} />
-          <Route path="faqs" element={<Faqs />} />
-          <Route
-            path="confirmpage"
-            element={<ProtectedRoute component={<Confirmpage />} />}
-          />
-
-          <Route
-            path="/login"
-            element={<ProtectedRoute component={<Home />} />}
-          />
-          <Route
-            path="/contactus"
-            element={<ProtectedRoute component={<Contactus />} />}
-          />
-          <Route
-            path="/emicheck"
-            element={<ProtectedRoute component={<Emicheck />} />}
-          />
-          <Route
-            path="/propertydetails"
-            element={<ProtectedRoute component={<PropertyDetails />} />}
-          />
+          <Route path="/faqs" element={<Faqs />} />
+          <Route path="/confirmpage" element={<Confirmpage />} />
+          <Route path="/propertydetails" element={<PropertyDetails />} />
+          <Route path="/contactus" element={<Contactus />} />
+          <Route path="/emicheck" element={<Emicheck />} /> {/* Add this line */}
         </Routes>
       </div>
       <Footer />
@@ -59,7 +39,7 @@ function App() {
 }
 
 const ProtectedRoute = ({ component }) => {
-  return localStorage.getItem("id") ? component : <Login />;
+  return localStorage.getItem("id") ? component : <div>Protected Route Content</div>;
 };
 
 export default App;

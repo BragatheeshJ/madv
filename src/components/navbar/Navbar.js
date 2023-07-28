@@ -1,30 +1,7 @@
 import React from "react";
-import { useDispatch, useSelector } from "react-redux";
-import { Link, useNavigate } from "react-router-dom";
-import "../../App.css";
-import { logoutAction } from "../../redux/actions/auth";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
-  const navigate = useNavigate();
-
-  const dispatch = useDispatch();
-
-  const isAuthenticated = useSelector((s) => s.state.isAuthenticated);
-  // const handleLogInOut = () => {
-  //   const userId = localStorage.getItem("id");
-  //   if (userId) {
-  //     localStorage.removeItem("id");
-  //     dispatch(logoutAction(navigate));
-  //     navigate("/");
-  //   } else {
-  //     navigate("/login");
-  //   }
-  // };
-  const handleLogInOut = () => {
-    if (isAuthenticated) dispatch(logoutAction(navigate));
-    else navigate("/login");
-  };
-
   return (
     <div>
       <nav className="navbar navbar-expand-lg navbar-light fixed-top">
@@ -38,7 +15,7 @@ const Navbar = () => {
               className="d-inline-block align-top"
               alt=""
             />
-            <b>-Loan</b>
+            <b>-Advisor</b>
           </Link>
           <button
             className="navbar-toggler"
@@ -78,55 +55,20 @@ const Navbar = () => {
                   FAQS
                 </Link>
               </li>
-
-              {localStorage.getItem("id") ? (
-                <>
-                  <li className="nav-item">
-                    <Link
-                      className="nav-item nav-link text-light"
-                      to="/propertydetails"
-                    >
-                      Property Details
-                    </Link>
-                  </li>
-                  <li className="nav-item">
-                    <Link
-                      className="nav-item nav-link text-light"
-                      to="/emicheck"
-                    >
-                      Emi-Check
-                    </Link>
-                  </li>
-                  <li className="nav-item">
-                    <Link
-                      className="nav-item nav-link text-light"
-                      to="/contactus"
-                    >
-                      Contact-Us
-                    </Link>
-                  </li>
-                </>
-              ) : (
-                <>
-                  <li className="nav-item">
-                    <Link
-                      className="nav-item nav-link text-light"
-                      to="/register"
-                    >
-                      Register
-                    </Link>
-                  </li>
-                </>
-              )}
-
               <li className="nav-item">
-                <a
-                  className="nav-item nav-link text-light"
-                  onClick={handleLogInOut}
-                >
-                  {/* {localStorage.getItem("id") ? "Logout" : "Login"} */}
-                  {isAuthenticated ? "Logout" : "Login"}
-                </a>
+                <Link className="nav-item nav-link text-light" to="/emicheck">
+                  Emi-Check
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-item nav-link text-light" to="/propertydetails">
+                  Property Details
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-item nav-link text-light" to="/contactus">
+                  Contact-Us
+                </Link>
               </li>
             </ul>
           </div>

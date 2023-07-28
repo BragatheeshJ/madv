@@ -53,19 +53,19 @@ export default function Footer() {
                     <span className="fa-li">
                       <i className="bi bi-house  fs-3 "></i>
                     </span>
-                    <span className="ms-3">Gachibowli,Hyderabad,500032</span>
+                    <span className="ms-3">25 Gresham St, London, Greater London, United Kingdom</span>
                   </li>
                   <li className="mb-3">
                     <span className="fa-li">
                       <i className="bi bi-envelope fs-3"></i>
                     </span>
-                    <span className="ms-3">MLoan@outlook.co</span>
+                    <span className="ms-3">MLoan@outlook.com</span>
                   </li>
                   <li className="mb-3">
                     <span className="fa-li">
                       <i className="bi bi-telephone-inbound fs-3 "></i>
                     </span>
-                    <span className="ms-3 my-auto ">+91 9000000890</span>
+                    <span className="ms-3 my-auto ">+91 9080100220</span>
                   </li>
                 </ul>
               </div>
@@ -83,7 +83,7 @@ export default function Footer() {
                     </tr>
                     <tr>
                       <td>Sat - Sun:</td>
-                      <td>8am - 1pm</td>
+                      <td>closed</td>
                     </tr>
                   </tbody>
                 </table>

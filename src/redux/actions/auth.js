@@ -1,5 +1,5 @@
 import axios from "axios";
-import { GetuserbyEmailAndPassword } from "../../api/Api";
+import { GetuserbyEmailAndPassword } from "../../Api/Api.js";
 import { ValidateLoginForm } from "../../components/login/Login";
 import { validateRegistrationForm } from "../../components/register/Register";
 

@@ -8,7 +8,7 @@ import {
   faCircleInfo,
 } from "@fortawesome/free-solid-svg-icons";
 import { Link, useNavigate } from "react-router-dom";
-import { PostPropertyDetails } from "../../api/Api";
+import { PostPropertyDetails } from           "../../Api/Api.js";
 import { toast } from "react-toastify";
 import { validatePropertyDetailsForm } from "../validators";
 import { PuffLoader } from "react-spinners";

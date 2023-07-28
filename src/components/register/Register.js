@@ -28,8 +28,9 @@ export const validateRegistrationForm = (values) => {
     /^(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*()_+])[A-Za-z\d!@#$%^&*()_+]{8,}$/;
   if (!values.password) {
     errors.password = "password is required!";
-  } else if (!passwordRegex.test(values.password))
+  } else if (!passwordRegex.test(values.password)){
     errors.password = "password should contain capital and special characters.";
+  }
 
   if (!values.confirmPassword) {
     errors.confirmPassword = "Please confirm the password";
