@@ -47,7 +47,7 @@ export default function faqs() {
                   >
                     <b>
                       {" "}
-                      How will M-loan decide the home loan amount i am eligible
+                      How will M-Advisor decide the home loan amount I am eligible
                       for?
                     </b>
                     <span className="lni-chevron-up"></span>
@@ -61,7 +61,7 @@ export default function faqs() {
                 >
                   <div className="card-body text-light">
                     <p>
-                      M-loan will determine your Home Loan Eligibility largely
+                      M-Advisor will determine your Home Loan Eligibility largely
                       by your income and repayment capacity. Other important
                       factors include your age, qualification, number of
                       dependants, your spouse's income (if any), assets &
@@ -69,7 +69,7 @@ export default function faqs() {
                       continuity of occupation.
                     </p>
                     <p>
-                      Appland is completely creative, lightweight, clean &amp;
+                      M-advisor is completely creative, lightweight, clean &amp;
                       super responsive app landing page.
                     </p>
                   </div>
@@ -92,7 +92,7 @@ export default function faqs() {
                     aria-expanded="true"
                     aria-controls="collapseTwo"
                   >
-                    <b> Do i get tax benefits on the loan?</b>
+                    <b> Do I get tax benefits on the loan?</b>
                     <span className="lni-chevron-up"></span>
                   </h6>
                 </div>
@@ -111,7 +111,7 @@ export default function faqs() {
                       benefits which you could avail on your loan.
                     </p>
                     <p>
-                      Appland is completely creative, lightweight, clean &amp;
+                      M-advisor is completely creative, lightweight, clean &amp;
                       super responsive app landing page.
                     </p>
                   </div>
@@ -134,7 +134,7 @@ export default function faqs() {
                     aria-expanded="true"
                     aria-controls="collapseThree"
                   >
-                    <b>What security will i have to provide?</b>
+                    <b>What security will I have to provide?</b>
                     <span className="lni-chevron-up"></span>
                   </h6>
                 </div>
@@ -156,7 +156,7 @@ export default function faqs() {
                       the title to the property.
                     </p>
                     <p>
-                      Appland is completely creative, lightweight, clean &amp;
+                      M-advisor is completely creative, lightweight, clean &amp;
                       super responsive app landing page.
                     </p>
                   </div>

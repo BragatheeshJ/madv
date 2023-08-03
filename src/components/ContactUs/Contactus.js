@@ -7,7 +7,7 @@ import {
   faUser,
 } from "@fortawesome/free-solid-svg-icons";
 const Contactus = () => {
-  let [email, setEmail] = useState("shashikanth@email.com");
+  let [email, setEmail] = useState("bragatheesh@email.com");
   let [FullName, setFullName] = useState("1234");
   let [Message, setMessage] = useState("");
   const [Showdata, setShowdata] = useState(false);

@@ -13,7 +13,7 @@ const Howtoapply = () => {
             className="fa-beat-fade"
             icon={faCheckCircle}
           ></FontAwesomeIcon>{' '}
-          Visit the website and fill the online form
+          Visit the website 
         </h5>
         <h5 className="card-text text-light">
           <FontAwesomeIcon

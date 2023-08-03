@@ -13,7 +13,7 @@ const About = () => {
             className="fa-beat-fade"
             icon={faCheckCircle}
           ></FontAwesomeIcon>{" "}
-          Introduction: Welcome to M-Loan, your trusted source for mortgage
+          Introduction: Welcome to M-Advisor, your trusted source for mortgage
           loans. We're committed to helping you achieve your dream of
           homeownership by providing personalized, expert support and a wide
           range of loan options.
@@ -23,7 +23,7 @@ const About = () => {
             className="fa-beat-fade"
             icon={faCheckCircle}
           ></FontAwesomeIcon>{" "}
-          Why Choose Us: At M-Loan, we understand that choosing a mortgage
+          Why Choose Us: At M-Advisor, we understand that choosing a mortgage
           lender can be a confusing and overwhelming experience. That's why we
           offer competitive rates, a streamlined application process, and a team
           of experienced professionals who are dedicated to making the loan
@@ -58,7 +58,7 @@ const About = () => {
             icon={faCheckCircle}
           ></FontAwesomeIcon>{" "}
           Start Your Journey: Take the first step towards homeownership and
-          start your journey with M-Loan. Apply for a mortgage loan today and
+          start your journey with M-Advisor. Apply for a mortgage loan today and
           experience the difference that comes from working with a trusted and
           experienced lender.
         </h5>
