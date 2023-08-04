@@ -34,7 +34,7 @@ exports[`howtoapply page should test snapshot 1`] = `
             fill="currentColor"
           />
         </svg>
-         Visit the website and fill the online form
+         Visit the website
       </h5>
       <h5
         class="card-text text-light"

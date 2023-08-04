@@ -22,7 +22,7 @@ exports[`render Navbar Matching the snapshot of the navbar 1`] = `
             width="30"
           />
           <b>
-            -Loan
+            -Advisor
           </b>
         </a>
         <button
@@ -100,9 +100,9 @@ exports[`render Navbar Matching the snapshot of the navbar 1`] = `
             >
               <a
                 class="nav-item nav-link text-light"
-                href="/register"
+                href="/emicheck"
               >
-                Register
+                Emi-Check
               </a>
             </li>
             <li
@@ -110,8 +110,19 @@ exports[`render Navbar Matching the snapshot of the navbar 1`] = `
             >
               <a
                 class="nav-item nav-link text-light"
+                href="/propertydetails"
               >
-                Login
+                Property Details
+              </a>
+            </li>
+            <li
+              class="nav-item"
+            >
+              <a
+                class="nav-item nav-link text-light"
+                href="/contactus"
+              >
+                Contact-Us
               </a>
             </li>
           </ul>

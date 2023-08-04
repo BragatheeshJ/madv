@@ -80,7 +80,7 @@ exports[`Footer Page should test snapshot 1`] = `
                 <span
                   class="ms-3"
                 >
-                  Gachibowli,Hyderabad,500032
+                  25 Gresham St, London, Greater London, United Kingdom
                 </span>
               </li>
               <li
@@ -96,7 +96,7 @@ exports[`Footer Page should test snapshot 1`] = `
                 <span
                   class="ms-3"
                 >
-                  MLoan@outlook.co
+                  MLoan@outlook.com
                 </span>
               </li>
               <li
@@ -112,7 +112,7 @@ exports[`Footer Page should test snapshot 1`] = `
                 <span
                   class="ms-3 my-auto "
                 >
-                  +91 9000000890
+                  +91 9080100220
                 </span>
               </li>
             </ul>
@@ -146,7 +146,7 @@ exports[`Footer Page should test snapshot 1`] = `
                     Sat - Sun:
                   </td>
                   <td>
-                    8am - 1pm
+                    closed
                   </td>
                 </tr>
               </tbody>

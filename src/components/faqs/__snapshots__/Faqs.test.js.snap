@@ -59,7 +59,7 @@ exports[`Faqs Page Matching the snapshot of the navbar 1`] = `
                   data-bs-toggle="collapse"
                 >
                   <b>
-                     How will M-loan decide the home loan amount i am eligible for?
+                     How will M-Advisor decide the home loan amount I am eligible for?
                   </b>
                   <span
                     class="lni-chevron-up"
@@ -76,10 +76,10 @@ exports[`Faqs Page Matching the snapshot of the navbar 1`] = `
                   class="card-body text-light"
                 >
                   <p>
-                    M-loan will determine your Home Loan Eligibility largely by your income and repayment capacity. Other important factors include your age, qualification, number of dependants, your spouse's income (if any), assets & liabilities, savings history and the stability & continuity of occupation.
+                    M-Advisor will determine your Home Loan Eligibility largely by your income and repayment capacity. Other important factors include your age, qualification, number of dependants, your spouse's income (if any), assets & liabilities, savings history and the stability & continuity of occupation.
                   </p>
                   <p>
-                    Appland is completely creative, lightweight, clean & super responsive app landing page.
+                    M-advisor is completely creative, lightweight, clean & super responsive app landing page.
                   </p>
                 </div>
               </div>
@@ -101,7 +101,7 @@ exports[`Faqs Page Matching the snapshot of the navbar 1`] = `
                   data-bs-toggle="collapse"
                 >
                   <b>
-                     Do i get tax benefits on the loan?
+                     Do I get tax benefits on the loan?
                   </b>
                   <span
                     class="lni-chevron-up"
@@ -121,7 +121,7 @@ exports[`Faqs Page Matching the snapshot of the navbar 1`] = `
                     Yes. You are eligible for tax benefits on the principal and interest components of your Home Loan under the Income Tax Act, 1961. As the benefits could vary each year, please do check with our Loan Counselor about the tax benefits which you could avail on your loan.
                   </p>
                   <p>
-                    Appland is completely creative, lightweight, clean & super responsive app landing page.
+                    M-advisor is completely creative, lightweight, clean & super responsive app landing page.
                   </p>
                 </div>
               </div>
@@ -143,7 +143,7 @@ exports[`Faqs Page Matching the snapshot of the navbar 1`] = `
                   data-bs-toggle="collapse"
                 >
                   <b>
-                    What security will i have to provide?
+                    What security will I have to provide?
                   </b>
                   <span
                     class="lni-chevron-up"
@@ -163,7 +163,7 @@ exports[`Faqs Page Matching the snapshot of the navbar 1`] = `
                     Security of the loan would generally be security interest on the property being financed by us and / or any other collateral / interim security as may be required by us. It is extremely important for you to ensure that the title to the property is clear, marketable and free from encumbrance. There should not be any existing mortgage, loan or litigation, which is likely to adversely affect the title to the property.
                   </p>
                   <p>
-                    Appland is completely creative, lightweight, clean & super responsive app landing page.
+                    M-advisor is completely creative, lightweight, clean & super responsive app landing page.
                   </p>
                 </div>
               </div>
