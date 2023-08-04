@@ -5,7 +5,7 @@ import Home from "./Home";
 describe("Home page", () => {
   test("Should Render Intial Page", () => {
     render(renderComponent(<Home />));
-    const text1 = screen.getAllByText(/M-Loan/i);
+    const text1 = screen.getAllByText(/M-Advisor/i);
     expect(text1[0]).toBeInTheDocument();
     const text2 = screen.getAllByText(
       /to estimate the EMI amount payable per month to repay the Mortage/i
