@@ -1,0 +1,14 @@
+trigger:
+  - main
+
+stages:
+- stage: Build
+  jobs:
+  - job: Build
+    pool:
+      vmImage: 'ubuntu-latest'
+    steps:
+    - script: npm install
+      displayName: 'Install Dependencies'
+    - script: npm test
+      displayName: 'Run Unit Tests'
